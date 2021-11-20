@@ -206,7 +206,6 @@ width: 692px;
    margin: 0 auto;
    padding-top: 50px;
    height: auto;
-  /* padding: 50px 375px; */
 }
 
 .title_logo {
@@ -216,10 +215,10 @@ width: 692px;
   margin-bottom: 25px;
 }
 
-.link_index {
+.link_index_content {
 position: relative;
-display: inline-block;
-width: 170px;
+display: block;
+width: 160px;
 height: 23px;
 margin-bottom: 25px;
 background-image: url(../img/Arrow_1.png) ;
@@ -271,7 +270,7 @@ color: #3F2AFF;
 }
 
 .h2_modules_under {
-  padding-top: 25px;
+  padding: 25px 0 0 25px;
   margin:0;
   font-size: 40px;
   line-height: 46px;
@@ -289,28 +288,30 @@ color: #3F2AFF;
  padding: 0;
  text-align: left;
  list-style: none;
+ /* box-shadow: 1px 1px 10px black; */
 }
 
 .item_modules {     /*li*/
  position: relative;
  display: inline-block;
  vertical-align: top;
- height: 185px;
+ height: 572px;
  width: 575px;
- margin-bottom: 325px;
- filter: drop-shadow(0px 0px 40px rgba(0, 0, 0, 0.1));
+ margin-bottom: 25px;
+ /* outline: 1px solid red; */
+box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
 .item_modules:nth-child(2n+1) {
   margin-right: 25px;
 }
-.item_modules:nth-child(n+3){
+/* .item_modules:nth-child(n+3){
 padding-top: 25px;
-}
+} */
 
 .under_list {
   list-style-type: none;
-  padding: 0;
+  padding-left: 25px;
   font-family: Arial;
   font-style: normal;
   font-weight: normal;
@@ -320,7 +321,7 @@ padding-top: 25px;
 
 .number {
   position:absolute;
-  top: 450px;
+  top: 510px;
   right: 15px;
   font-family: Arial;
   font-style: normal;
@@ -332,6 +333,7 @@ padding-top: 25px;
 }
 
 .button {
+  display: block;
   margin: 50px auto 50px;
   border: 2px solid #3F2AFF;
   width: 275px;
